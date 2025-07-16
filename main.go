@@ -8,7 +8,7 @@ import (
 
 // entry point of the Task Manager REST API application
 func main() {
-	fmt.Println("Task Manager RESTful API Project")    // print startup message
+	fmt.Println("Task Manager REST API Project")    // print startup message
 
 	router := router.SetupRouter()	   // initialize the router with all configured routes
 	
