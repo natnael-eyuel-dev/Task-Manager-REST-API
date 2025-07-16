@@ -8,9 +8,9 @@ import (
 
 type TaskManager interface {
 	CreateTask(task *models.Task) error                                  // create new task with validation
-	DeleteTask(taskID int) error                 					     // delete existing task or return error if not found
-	GetAllTasks() ([]models.Task, error)         					     // get all tasks in the system
-	GetTaskByID(taskID int) (*models.Task, error) 					     // get specific task by id or return error if not found
+	DeleteTask(taskID int) error                 			     // delete existing task or return error if not found
+	GetAllTasks() ([]models.Task, error)         			     // get all tasks in the system
+	GetTaskByID(taskID int) (*models.Task, error) 		             // get specific task by id or return error if not found
 	UpdateTask(taskID int, task *models.Task) (*models.Task, error)      // update existing task or return error if not found
 }
 
