@@ -75,7 +75,7 @@ Host: localhost:8080
 Content-Type: application/json
 
 {
-  "title": "",
+  "title": "Implement user authentication",
   "description": "Create login and registration endpoints with JWT support",
   "due_date": "2025-07-18T18:00:00Z",
   "status": "pending"
